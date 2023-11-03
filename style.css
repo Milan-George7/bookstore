@@ -1,0 +1,40 @@
+.list{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.list-link{
+    text-decoration: none;
+    color: black
+}
+
+
+.logo-collection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+   margin-left: 15px;
+   font-size: 30px;
+   
+   
+}
+
+.icon a{
+    color: black;
+}
+
+
+.icon a:hover{
+    color: orange;
+
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

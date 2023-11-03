@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- As a heading -->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1"><i class="fa-solid fa-book"></i></span>
+    </div>
+  </nav>
+
+  <h1 class="animate__animated animate__bounceInLeft animate__delay-2s m-5 ">Heading</h1>
+  
+<!-- carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="https://i0.wp.com/totallybooked.uk/wp-content/uploads/2022/04/pexels-photo-2228548.jpeg?resize=1280%2C853&ssl=1" class="d-block w-100" alt="...">
+
+    
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="https://images.unsplash.com/photo-1519304520401-239e2a56a1aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9vayUyMHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+     
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="https://fortuneandframe.com/cdn/shop/articles/main_image_115ae059-4b0f-4ca8-9146-cc90c427323b_1200x630.jpg?v=1617287516" class="d-block w-100" alt="...">
+    
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<h1 class="text-center mt-5 mb-5">LIST OF BOOKS</h1>
+
+  <!-- cards -->
+  <div class="d-flex justify-content-evenly p-3 flex-wrap mt-5">
+    <!-- card 1 -->
+    <div data-aos="fade-up" class="card mt-5" style="width: 18rem;">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://images.ctfassets.net/usf1vwtuqyxm/24YWmI4UcyoMwj7wdKrEcL/374de1941927db12bd844fb197eab11f/English_Harry_Potter_3_Epub_9781781100233.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Harry Potter 3</h5>
+          <a href="https://www.amazon.in/Harry-Potter-Prisoner-Azkaban/dp/1408855674/ref=sr_1_2?crid=37TKXYG8EK509&keywords=harry+potter+and+the+prisoner+of+azkaban&qid=1697107257&sprefix=harry+potter+and+th%2Caps%2C234&sr=8-2" class="card-link" target="_blank">amazon link</a>
+          
+        </div>
+      </div>
+       
+      <!-- card 2 -->
+      <div data-aos="fade-down" class="card mt-5" style="width: 18rem;">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal2" src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Harry Potter 1</h5>
+          <a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-MinaLima/dp/1526626586/ref=sr_1_1_sspa?crid=2S3CRGU790Z8U&keywords=harry+potter+and+the+philosopher%27s+stone&qid=1697107340&sprefix=harry+potter+and+the+%2Caps%2C412&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="card-link" target="_blank">amazon link</a>
+          
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div  data-aos="fade-up" class="card mt-5" style="width: 18rem;">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal3" src="https://i.guim.co.uk/img/media/a445392b08f934fb517dcae17a7c1f58cd1885c3/0_0_1660_2493/master/1660.jpg?width=700&quality=85&auto=format&fit=max&s=f3043efa7373598a6c69ba1eae3fae4e" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Harry Potter 4</h5>
+          <a href="https://www.amazon.in/HARRY-POTTER-ORDER-PHOENIX-5/dp/1408855690/ref=sr_1_2_sspa?crid=20GKHZMGKU60T&keywords=harry+potter+and+the+order+of+phoenix&qid=1697107450&sprefix=harry+potter+and+the+or%2Caps%2C254&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="card-link" target="_blank">amazon link</a>
+          
+        </div>
+      </div>
+  </div>
+
+ 
+  <!-- modal -->
+  <!-- Modal card 1-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Harry Potter III</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="https://images.ctfassets.net/usf1vwtuqyxm/24YWmI4UcyoMwj7wdKrEcL/374de1941927db12bd844fb197eab11f/English_Harry_Potter_3_Epub_9781781100233.jpg" alt="">
+          <p>Harry Potter and the Prisoner of Azkaban is a fantasy novel written by British author J. K. Rowling and is the third in the Harry Potter series. The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban, the wizard prison, believed to be one of Lord Voldemort's old allies.
+
+            The book was published in the United Kingdom on 8 July 1999 by Bloomsbury and in the United States on 8 September 1999 by Scholastic, Inc.[1][2][3][4] Rowling found the book easy to write, finishing it just a year after she began writing it. The book sold 68,000 copies in just three days after its release in the United Kingdom and since has sold over three million in the country.[5] The book won the 1999 Whitbread Children's Book Award, the Bram Stoker Award, and the 2000 Locus Award for Best Fantasy Novel and was short-listed for other awards, including the Hugo.
+            
+            The film adaptation of the novel was released in 2004, grossing more than $796 million and earning critical acclaim. Video games loosely based on Harry Potter and the Prisoner of Azkaban were also released for several platforms, and most obtained favourable reviews.</p>
+        </div>
+        <div class="modal-footer">
+       
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal card 2-->
+   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Harry Potter I</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" alt="">
+          <p>Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, Ron Weasley and Hermione Granger, he faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.</p>
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal card 3-->
+   <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Harry Potter IV</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="https://i.guim.co.uk/img/media/a445392b08f934fb517dcae17a7c1f58cd1885c3/0_0_1660_2493/master/1660.jpg?width=700&quality=85&auto=format&fit=max&s=f3043efa7373598a6c69ba1eae3fae4e" alt="">
+          <p>Harry Potter and the Order of the Phoenix is a fantasy novel written by British author J. K. Rowling and the fifth novel in the Harry Potter series. It follows Harry Potter's struggles through his fifth year at Hogwarts School of Witchcraft and Wizardry, including the surreptitious return of the antagonist Lord Voldemort, O.W.L. exams, and an obstructive Ministry of Magic. The novel was published on 21 June 2003 by Bloomsbury in the United Kingdom, Scholastic in the United States, and Raincoast in Canada. It sold five million copies in the first 24 hours of publication.[1]
+
+            Harry Potter and the Order of the Phoenix won several awards, including the American Library Association Best Book Award for Young Adults in 2003. The book was also made into a 2007 film, and a video game by Electronic Arts.</p>
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="row d-flex bg-success mt-5 p-5">
+       <div class="col-lg-3 col-md-6">
+       <h4>LIBRARY</h4>
+       <p>Everthing you Read here is Authentic.</p>
+       <p>ALL RIGHTS RESERVERD.&reg;</p>
+       </div>
+       <div class="col-lg-3 col-md-6">
+         <h4>USEFUL LINKS</h4>
+       
+           <li class="list"><a class="list-link" href="">HOME</a></li>
+           <li class="list"><a class="list-link" href="">ABOUT US</a></li>
+           <li class="list"><a class="list-link" href="">BLOG</a></li>
+           <li class="list"><a class="list-link" href="">TERMS</a></li>
+           <li class="list"><a class="list-link" href="">PRIVACY POLICY</a></li>
+        
+       </div>
+       <div class="col-lg-3 col-md-6">
+        <h4>CATEGORIES</h4>
+       
+          <li class="list"><a class="list-link" href="">FICTION</a></li>
+          <li class="list"><a class="list-link" href="">DRAMA</a></li>
+          <li class="list"><a class="list-link" href="">SHORT STORIES</a></li>
+          <li class="list"><a class="list-link" href="">NOVELS</a></li>
+          <li class="list"><a class="list-link" href="">POETRY</a></li>
+  
+        
+       </div>
+       <div class="col-lg-3 col-md-6">
+        <h4>ABOUT</h4>
+       
+          <li class="list"><a class="list-link" href="">DOWNLOAD</a></li>
+          <li class="list"><a class="list-link" href="">OVERVIEW</a></li>
+          <li class="list"><a class="list-link" href="">EXAMPLES</a></li>
+        
+     
+
+       </div>
+         
+
+       <div class="logo-collection mt-5 p-5">
+        <div class="icon">
+          <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="icon">
+          <a href=""  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="icon">
+          <a href=""  target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="icon">
+          <a href=""  target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    
+       </div>
+       
+<div class="foot"><p>All Copy Rights Reserved&copy;</p></div>
+
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
